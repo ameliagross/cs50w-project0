@@ -1,10 +1,41 @@
-$blue: #0000ff;
-
+$white: #fff;
+$black: #000;
 
 .titulo{
-    img
+    &>img
     {
         border-radius: 500px;
         height: 300px;
     }
+}
+
+%fuente{
+    font-family: 'Helvetica', Helvetica;
+}
+
+
+.dropdown 
+{
+
+@extend %fuente;
+background-color: $white;
+color: $black;
+
+}
+
+h1{
+
+
+@extend %fuente;
+color: $black;
+
+}
+
+
+#header {
+
+    @extend %fuente;
+    background-color: $white;
+    color: $black;
+
 }
