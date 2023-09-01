@@ -54,10 +54,6 @@ h1 {
     flex-direction: column;
     align-items: center;
 }
-.titulo>img{
-    border-radius: 500px;
-    height: 300px;
-}
 
 #inst{
     display: none;
